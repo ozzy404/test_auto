@@ -8,7 +8,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Секретний ключ можна встановити через змінні оточення в Render
-API_KEY = os.getenv('API_KEY', 'your_secret_key_here')
+API_KEY = os.getenv('API_KEY', 'rnd_waYFLJCkjmHgaaw0P5ao7bKQb0gc')
 
 @app.route('/')
 def home():
